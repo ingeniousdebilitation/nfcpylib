@@ -5,8 +5,8 @@ Created on Feb 13, 2014
 '''
 
 from ctypes import Structure
-from wrapper.nfclib.types.nfc_target_info import NFC_TARGET_INFO
-from wrapper.nfclib.types.nfc_modulation import NFC_MODULATION
+from src.nfcpylib.types.nfc_target_info import NFC_TARGET_INFO
+from src.nfcpylib.types.nfc_modulation import NFC_MODULATION
 
 class NFC_TARGET(Structure):
     _fields_ = [

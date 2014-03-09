@@ -4,6 +4,7 @@ Created on Feb 13, 2014
 @author: chainer
 '''
 from ctypes import c_long
+
 class NFC_MODULATION_TYPE(object): # enum hack in Python 2.7
     NMT_ISO14443A = c_long(1)
     NMT_JEWEL = c_long(2)
